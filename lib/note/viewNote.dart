@@ -106,11 +106,10 @@ class _viewNoteState extends State<viewNote> {
 
                   ).show();
                 } ,
-
                 child: Card(
                     color: Colors.white,
                     child:  Container(
-                      padding: EdgeInsets.all(20.0),//عشان النص ما يطلع برا ال card
+                      padding: EdgeInsets.all(20.0),//عشان النص ما يطلع برا الcard
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
